@@ -23,7 +23,7 @@ export default function RealtorHomePage() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-center">
             <img 
-              src="public/images/logo.webp" 
+              src="/images/logo.webp" 
               alt="Company Logo" 
               className="h-16 w-auto object-contain"
             />
@@ -35,7 +35,7 @@ export default function RealtorHomePage() {
       <section className="relative h-screen bg-black">
         <div className="absolute inset-0">
           <img 
-            src="public/images/banner.jpg" 
+            src="/images/banner.jpg" 
             alt="Hero Banner" 
             className="w-full h-full object-cover opacity-60"
           />
@@ -55,7 +55,7 @@ export default function RealtorHomePage() {
           <div className="inline-block">
             <div className="w-80 h-80 mx-auto mb-8 border-4 border-black overflow-hidden bg-gray-100">
               <img 
-                src="public/images/rs=w_365,h_365,cg_true.webp" 
+                src="/images/rs=w_365,h_365,cg_true.webp" 
                 alt="Marci J Metzger" 
                 className="w-full h-full object-cover"
               />
@@ -77,19 +77,19 @@ export default function RealtorHomePage() {
             {[
               { 
                 id: 1, 
-                image: 'public/images/f1.webp',
+                image: '/images/f1.webp',
                 title: 'Top Residential Sales Last 5 Years',
                 description: 'We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.'
               },
               { 
                 id: 2, 
-                image: 'public/images/f2.webp',
+                image: '/images/f2.webp',
                 title: 'Don\'t Just List it...',
                 description: 'Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.'
               },
               { 
                 id: 3, 
-                image: 'public/images/f3.webp',
+                image: '/images/f3.webp',
                 title: 'Guide to Buyers',
                 description: 'Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!'
               }
@@ -120,7 +120,7 @@ export default function RealtorHomePage() {
       <section className="py-20 bg-white relative">
         <div className="absolute inset-0">
           <img 
-            src="public/images/find_section.jpg" 
+            src="/images/find_section.jpg" 
             alt="Find Your Dream Home Background" 
             className="w-full h-full object-cover opacity-20"
           />
@@ -234,10 +234,10 @@ export default function RealtorHomePage() {
           <h2 className="text-4xl font-light text-center mb-16 text-black tracking-wide">Trusted Partners</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              'public/images/l1.webp',
-              'public/images/l2.webp',
-              'public/images/l3.webp',
-              'public/images/l4.webp'
+              '/images/l1.webp',
+              '/images/l2.webp',
+              '/images/l3.webp',
+              '/images/l4.webp'
             ].map((logo, index) => (
               <div key={index} className="flex items-center justify-center p-8 bg-white border border-gray-200 hover:border-black transition-colors">
                 <img 
@@ -257,12 +257,12 @@ export default function RealtorHomePage() {
           <h2 className="text-4xl font-light text-center mb-16 text-black tracking-wide">Photo Gallery</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              'public/images/p1.webp',
-              'public/images/p2.webp',
-              'public/images/p3.webp',
-              'public/images/p4.webp',
-              'public/images/p5.webp',
-              'public/images/p6.webp'
+              '/images/p1.webp',
+              '/images/p2.webp',
+              '/images/p3.webp',
+              '/images/p4.webp',
+              '/images/p5.webp',
+              '/images/p6.webp'
             ].map((photo, index) => (
               <div key={index} className="aspect-square bg-gray-100 border border-gray-200 hover:border-black transition-colors cursor-pointer overflow-hidden">
                 <img 
@@ -283,17 +283,17 @@ export default function RealtorHomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                image: 'public/images/S1.webp',
+                image: '/images/S1.webp',
                 title: 'Real Estate Done Right',
                 description: 'Nervous about your property adventure? Don\'t be. Whether you\'re getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!'
               },
               {
-                image: 'public/images/S2.webp',
+                image: '/images/S2.webp',
                 title: 'Commercial & Residential',
                 description: 'Large or small, condo or mansion, we can find it and get at the price that\'s right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put you hard-earned dollars.'
               },
               {
-                image: 'public/images/S3.webp',
+                image: '/images/S3.webp',
                 title: 'Rely on Expertise',
                 description: 'If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.'
               }
